@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <form action="">
+      <form action="" autocomplete="off">
         <h1>Login</h1>
 
         <label for="name">Nome:</label>
@@ -20,6 +20,7 @@
           id="name"
           placeholder="Digite o nome"
         />
+        <span id="name-error"></span>
 
         <label for="email">E-mail:</label>
         <input
@@ -29,6 +30,7 @@
           id="email"
           placeholder="Digite o e-mail"
         />
+        <span id="email-error"></span>
 
         <label for="password">Senha:</label>
         <input
@@ -38,10 +40,10 @@
           id="password"
           placeholder="Digite a senha"
         />
+        <span id="password-error"></span>
 
         <button id="botao">Fazer login</button>
       </form>
     </main>
-    <p>teste</p>
   </body>
 </html>

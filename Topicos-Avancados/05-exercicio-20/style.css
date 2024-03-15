@@ -69,7 +69,7 @@ button {
     height: 4rem;
     width: 100%;
     margin: 1.5rem 0;
-    background-color: #0493be;
+    background-color: #17acda;
     color: #414141;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -77,12 +77,22 @@ button {
 }
 
 button:hover {
-    background-color: #17acda;
+    background-color: #0493be;
     cursor: pointer;
 }
 
-button:focus {
-    background-color: #0183aa;
+button:active {
+    background-color: #007599;
     transform: translateY(3px);
 }
-
+span {
+    display: block;
+    color: #f64348;
+    margin: .25rem;
+}
+.error {
+    border: 1px solid #f64348;
+}
+.success {
+    border: 1px solid #43f67f;
+}
