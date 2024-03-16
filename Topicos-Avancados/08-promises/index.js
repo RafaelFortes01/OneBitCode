@@ -32,4 +32,4 @@ console.log(p);
 
 setTimeout(() => {
     console.log(p);
-}, 1000 * 2)
+}, 1000 * 2) 
