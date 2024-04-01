@@ -48,5 +48,3 @@ getAge('2009-09-02')
 	.catch(err => {
     console.log(err.message)
 })
-
-console.log("Teste")
