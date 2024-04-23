@@ -1,0 +1,1 @@
+let spaceship: {name: string, pilot: string, crew: [], crewMembers: number}
