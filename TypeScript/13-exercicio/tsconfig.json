@@ -1,5 +1,9 @@
 {
    "compilerOptions": {
-      "outDir": "dist"
+      "outDir": "dist",
+      "target": "ES2015"
+   },
+   "scripts": {
+      "build": "tsc"
    }
 }
