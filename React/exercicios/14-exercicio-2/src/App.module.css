@@ -1,8 +1,11 @@
 .mainContent {
    display: flex;
+   flex-direction: column;
+   gap: 2rem;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   height: 100%;
+   padding: 2rem 0;
 }
 
 .app {
