@@ -23,6 +23,15 @@ export default function App() {
           <Button/>
         </div>   
       </div>
+      <div className={styles.app}>
+        <ImageComponent/>
+        <div className={styles.textContent}>
+          <Title/>
+          <Text/>
+          <Button/>
+        </div>   
+      </div>
     </div>
+    
 )
 }
