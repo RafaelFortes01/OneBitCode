@@ -1,7 +1,9 @@
 import styles from "./styles.module.css"
 
-export default function Button() {
+export default function Button(props) {
    return(
-      <button>BOTÃO!</button>
+      <a href="https://google.com" target="_blank">
+         <button className={styles.btn}>{props.button}</button>
+      </a>
    )
 }

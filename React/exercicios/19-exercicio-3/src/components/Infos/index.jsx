@@ -1,7 +1,7 @@
 import styles from "./styles.module.css"
 
-export default function Infos() {
+export default function Infos(props) {
    return(
-      <p>Informações</p>
+      <p className={styles.info}>{props.info}</p>
    )
 }
