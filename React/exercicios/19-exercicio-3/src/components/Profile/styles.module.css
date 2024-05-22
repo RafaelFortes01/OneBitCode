@@ -33,3 +33,17 @@
    flex-direction: column;
    gap: 2rem;
 }
+
+.followBtn {
+   height: 1.6rem;
+   width: 4.2rem;
+   border-radius: 20px;
+   border: 1px solid black;
+   cursor: pointer;
+   background-color: rgb(233, 233, 233);
+   font-size: .9rem;
+}
+
+.followBtn:hover {
+   background-color: rgb(214, 214, 214);
+}
