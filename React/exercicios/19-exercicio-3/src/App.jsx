@@ -5,7 +5,7 @@ import Profile from "./components/Profile"
 export default function App() {
   return(
     <Fragment>
-      <Profile id="Rafael Fortes"/>
+      <Profile profileid="Rafael Fortes"/>
     </Fragment>
   )
 }
